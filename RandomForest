@@ -133,5 +133,5 @@ print(mean_absolute_error(y_valid, preds_valid))
 # Preprocess test data
 final_X_test = pd.DataFrame(final_imputer.transform(X_test))
 
-# Get test predictions
+# Get test predictionss
 preds_test = model.predict(final_X_test)
